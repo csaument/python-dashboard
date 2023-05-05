@@ -1,0 +1,581 @@
+Region,State,Year,Seats
+South,All South,1910,104
+South,Alabama,1910,10
+South,Arkansas,1910,7
+South,Florida,1910,4
+South,Georgia,1910,12
+South,Louisiana,1910,8
+South,Mississippi,1910,8
+South,North Carolina,1910,10
+South,South Carolina,1910,7
+South,Tennessee,1910,10
+South,Texas,1910,18
+South,Virginia,1910,10
+Border,All Border,1910,47
+Border,Kentucky,1910,11
+Border,Maryland,1910,6
+Border,Missouri,1910,16
+Border,Oklahoma,1910,8
+Border,West Virginia,1910,6
+New England,All New England,1910,32
+New England,Connecticut,1910,5
+New England,Maine,1910,4
+New England,Massachusetts,1910,16
+New England,New Hampshire,1910,2
+New England,Rhode Island,1910,3
+New England,Vermont,1910,2
+Mid-Atlantic,All Mid-Atlantic,1910,92
+Mid-Atlantic,Delaware,1910,1
+Mid-Atlantic,New Jersey,1910,12
+Mid-Atlantic,New York,1910,43
+Mid-Atlantic, Pennsylvania,1910,36
+Midwest,All Midwest,1910,86
+Midwest,Illinois,1910,27
+Midwest,Indiana,1910,13
+Midwest,Michigan,1910,13
+Midwest,Ohio,1910,22
+Midwest,Wisconsin,1910,11
+Plains,All Plains,1910,41
+Plains,Iowa,1910,11
+Plains,Kansas,1910,8
+Plains,Minnesota,1910,10
+Plains,Nebraska,1910,6
+Plains,North Dakota,1910,3
+Plains,South Dakota,1910,3
+Rocky Mountains,All Rocky Mountains,1910,14
+Rocky Mountains,Arizona,1910,1
+Rocky Mountains,Colorado,1910,4
+Rocky Mountains,Idaho,1910,2
+Rocky Mountains,Montana,1910,2
+Rocky Mountains,Nevada,1910,1
+Rocky Mountains,New Mexico,1910,1
+Rocky Mountains,Utah,1910,2
+Rocky Mountains,Wyoming,1910,1
+Pacific Coast,All Pacific Coast,1910,19
+Pacific Coast,Alaska,1910,
+Pacific Coast,California,1910,11
+Pacific Coast,Hawaii,1910,
+Pacific Coast,Oregon,1910,3
+Pacific Coast,Washington,1910,5
+South,All South,1930,102
+South,Alabama,1930,9
+South,Arkansas,1930,7
+South,Florida,1930,5
+South,Georgia,1930,10
+South,Louisiana,1930,8
+South,Mississippi,1930,7
+South,North Carolina,1930,11
+South,South Carolina,1930,6
+South,Tennessee,1930,9
+South,Texas,1930,21
+South,Virginia,1930,9
+Border,All Border,1930,43
+Border,Kentucky,1930,9
+Border,Maryland,1930,6
+Border,Missouri,1930,13
+Border,Oklahoma,1930,9
+Border,West Virginia,1930,6
+New England,All New England,1930,29
+New England,Connecticut,1930,6
+New England,Maine,1930,3
+New England,Massachusetts,1930,15
+New England,New Hampshire,1930,2
+New England,Rhode Island,1930,2
+New England,Vermont,1930,1
+Mid-Atlantic,All Mid-Atlantic,1930,94
+Mid-Atlantic,Delaware,1930,1
+Mid-Atlantic,New Jersey,1930,14
+Mid-Atlantic,New York,1930,45
+Mid-Atlantic, Pennsylvania,1930,34
+Midwest,All Midwest,1930,90
+Midwest,Illinois,1930,27
+Midwest,Indiana,1930,12
+Midwest,Michigan,1930,17
+Midwest,Ohio,1930,24
+Midwest,Wisconsin,1930,10
+Plains,All Plains,1930,34
+Plains,Iowa,1930,9
+Plains,Kansas,1930,7
+Plains,Minnesota,1930,9
+Plains,Nebraska,1930,5
+Plains,North Dakota,1930,2
+Plains,South Dakota,1930,2
+Rocky Mountains,All Rocky Mountains,1930,14
+Rocky Mountains,Arizona,1930,1
+Rocky Mountains,Colorado,1930,4
+Rocky Mountains,Idaho,1930,2
+Rocky Mountains,Montana,1930,2
+Rocky Mountains,Nevada,1930,1
+Rocky Mountains,New Mexico,1930,1
+Rocky Mountains,Utah,1930,2
+Rocky Mountains,Wyoming,1930,1
+Pacific Coast,All Pacific Coast,1930,29
+Pacific Coast,Alaska,1930,
+Pacific Coast,California,1930,20
+Pacific Coast,Hawaii,1930,
+Pacific Coast,Oregon,1930,3
+Pacific Coast,Washington,1930,6
+South,All South,1940,105
+South,Alabama,1940,9
+South,Arkansas,1940,7
+South,Florida,1940,6
+South,Georgia,1940,10
+South,Louisiana,1940,8
+South,Mississippi,1940,7
+South,North Carolina,1940,12
+South,South Carolina,1940,6
+South,Tennessee,1940,10
+South,Texas,1940,21
+South,Virginia,1940,9
+Border,All Border,1940,42
+Border,Kentucky,1940,9
+Border,Maryland,1940,6
+Border,Missouri,1940,13
+Border,Oklahoma,1940,8
+Border,West Virginia,1940,6
+New England,All New England,1940,28
+New England,Connecticut,1940,6
+New England,Maine,1940,3
+New England,Massachusetts,1940,14
+New England,New Hampshire,1940,2
+New England,Rhode Island,1940,2
+New England,Vermont,1940,1
+Mid-Atlantic,All Mid-Atlantic,1940,93
+Mid-Atlantic,Delaware,1940,1
+Mid-Atlantic,New Jersey,1940,14
+Mid-Atlantic,New York,1940,45
+Mid-Atlantic, Pennsylvania,1940,33
+Midwest,All Midwest,1940,87
+Midwest,Illinois,1940,26
+Midwest,Indiana,1940,11
+Midwest,Michigan,1940,17
+Midwest,Ohio,1940,23
+Midwest,Wisconsin,1940,10
+Plains,All Plains,1940,31
+Plains,Iowa,1940,8
+Plains,Kansas,1940,6
+Plains,Minnesota,1940,9
+Plains,Nebraska,1940,4
+Plains,North Dakota,1940,2
+Plains,South Dakota,1940,2
+Rocky Mountains,All Rocky Mountains,1940,16
+Rocky Mountains,Arizona,1940,2
+Rocky Mountains,Colorado,1940,4
+Rocky Mountains,Idaho,1940,2
+Rocky Mountains,Montana,1940,2
+Rocky Mountains,Nevada,1940,1
+Rocky Mountains,New Mexico,1940,2
+Rocky Mountains,Utah,1940,2
+Rocky Mountains,Wyoming,1940,1
+Pacific Coast,All Pacific Coast,1940,33
+Pacific Coast,Alaska,1940,
+Pacific Coast,California,1940,23
+Pacific Coast,Hawaii,1940,
+Pacific Coast,Oregon,1940,4
+Pacific Coast,Washington,1940,6
+South,All South,1950,106
+South,Alabama,1950,9
+South,Arkansas,1950,6
+South,Florida,1950,8
+South,Georgia,1950,10
+South,Louisiana,1950,8
+South,Mississippi,1950,6
+South,North Carolina,1950,12
+South,South Carolina,1950,6
+South,Tennessee,1950,9
+South,Texas,1950,22
+South,Virginia,1950,10
+Border,All Border,1950,38
+Border,Kentucky,1950,8
+Border,Maryland,1950,7
+Border,Missouri,1950,11
+Border,Oklahoma,1950,6
+Border,West Virginia,1950,6
+New England,All New England,1950,28
+New England,Connecticut,1950,6
+New England,Maine,1950,3
+New England,Massachusetts,1950,14
+New England,New Hampshire,1950,2
+New England,Rhode Island,1950,2
+New England,Vermont,1950,1
+Mid-Atlantic,All Mid-Atlantic,1950,88
+Mid-Atlantic,Delaware,1950,1
+Mid-Atlantic,New Jersey,1950,14
+Mid-Atlantic,New York,1950,43
+Mid-Atlantic, Pennsylvania,1950,30
+Midwest,All Midwest,1950,87
+Midwest,Illinois,1950,25
+Midwest,Indiana,1950,11
+Midwest,Michigan,1950,18
+Midwest,Ohio,1950,23
+Midwest,Wisconsin,1950,10
+Plains,All Plains,1950,31
+Plains,Iowa,1950,8
+Plains,Kansas,1950,6
+Plains,Minnesota,1950,9
+Plains,Nebraska,1950,4
+Plains,North Dakota,1950,2
+Plains,South Dakota,1950,2
+Rocky Mountains,All Rocky Mountains,1950,16
+Rocky Mountains,Arizona,1950,2
+Rocky Mountains,Colorado,1950,4
+Rocky Mountains,Idaho,1950,2
+Rocky Mountains,Montana,1950,2
+Rocky Mountains,Nevada,1950,1
+Rocky Mountains,New Mexico,1950,2
+Rocky Mountains,Utah,1950,2
+Rocky Mountains,Wyoming,1950,1
+Pacific Coast,All Pacific Coast,1950,43
+Pacific Coast,Alaska,1950,1
+Pacific Coast,California,1950,30
+Pacific Coast,Hawaii,1950,1
+Pacific Coast,Oregon,1950,4
+Pacific Coast,Washington,1950,7
+South,All South,1960,106
+South,Alabama,1960,8
+South,Arkansas,1960,4
+South,Florida,1960,12
+South,Georgia,1960,10
+South,Louisiana,1960,8
+South,Mississippi,1960,5
+South,North Carolina,1960,11
+South,South Carolina,1960,6
+South,Tennessee,1960,9
+South,Texas,1960,23
+South,Virginia,1960,10
+Border,All Border,1960,36
+Border,Kentucky,1960,7
+Border,Maryland,1960,8
+Border,Missouri,1960,10
+Border,Oklahoma,1960,6
+Border,West Virginia,1960,5
+New England,All New England,1960,25
+New England,Connecticut,1960,6
+New England,Maine,1960,2
+New England,Massachusetts,1960,12
+New England,New Hampshire,1960,2
+New England,Rhode Island,1960,2
+New England,Vermont,1960,1
+Mid-Atlantic,All Mid-Atlantic,1960,84
+Mid-Atlantic,Delaware,1960,1
+Mid-Atlantic,New Jersey,1960,15
+Mid-Atlantic,New York,1960,41
+Mid-Atlantic, Pennsylvania,1960,27
+Midwest,All Midwest,1960,88
+Midwest,Illinois,1960,24
+Midwest,Indiana,1960,11
+Midwest,Michigan,1960,19
+Midwest,Ohio,1960,24
+Midwest,Wisconsin,1960,10
+Plains,All Plains,1960,27
+Plains,Iowa,1960,7
+Plains,Kansas,1960,5
+Plains,Minnesota,1960,8
+Plains,Nebraska,1960,3
+Plains,North Dakota,1960,2
+Plains,South Dakota,1960,2
+Rocky Mountains,All Rocky Mountains,1960,17
+Rocky Mountains,Arizona,1960,3
+Rocky Mountains,Colorado,1960,4
+Rocky Mountains,Idaho,1960,2
+Rocky Mountains,Montana,1960,2
+Rocky Mountains,Nevada,1960,1
+Rocky Mountains,New Mexico,1960,2
+Rocky Mountains,Utah,1960,2
+Rocky Mountains,Wyoming,1960,1
+Pacific Coast,All Pacific Coast,1960,52
+Pacific Coast,Alaska,1960,1
+Pacific Coast,California,1960,38
+Pacific Coast,Hawaii,1960,2
+Pacific Coast,Oregon,1960,4
+Pacific Coast,Washington,1960,7
+South,All South,1970,108
+South,Alabama,1970,7
+South,Arkansas,1970,4
+South,Florida,1970,15
+South,Georgia,1970,10
+South,Louisiana,1970,8
+South,Mississippi,1970,5
+South,North Carolina,1970,11
+South,South Carolina,1970,6
+South,Tennessee,1970,8
+South,Texas,1970,24
+South,Virginia,1970,10
+Border,All Border,1970,35
+Border,Kentucky,1970,7
+Border,Maryland,1970,8
+Border,Missouri,1970,10
+Border,Oklahoma,1970,6
+Border,West Virginia,1970,4
+New England,All New England,1970,25
+New England,Connecticut,1970,6
+New England,Maine,1970,2
+New England,Massachusetts,1970,12
+New England,New Hampshire,1970,2
+New England,Rhode Island,1970,2
+New England,Vermont,1970,1
+Mid-Atlantic,All Mid-Atlantic,1970,80
+Mid-Atlantic,Delaware,1970,1
+Mid-Atlantic,New Jersey,1970,15
+Mid-Atlantic,New York,1970,39
+Mid-Atlantic, Pennsylvania,1970,25
+Midwest,All Midwest,1970,86
+Midwest,Illinois,1970,24
+Midwest,Indiana,1970,11
+Midwest,Michigan,1970,19
+Midwest,Ohio,1970,23
+Midwest,Wisconsin,1970,9
+Plains,All Plains,1970,25
+Plains,Iowa,1970,6
+Plains,Kansas,1970,5
+Plains,Minnesota,1970,8
+Plains,Nebraska,1970,3
+Plains,North Dakota,1970,1
+Plains,South Dakota,1970,2
+Rocky Mountains,All Rocky Mountains,1970,19
+Rocky Mountains,Arizona,1970,4
+Rocky Mountains,Colorado,1970,5
+Rocky Mountains,Idaho,1970,2
+Rocky Mountains,Montana,1970,2
+Rocky Mountains,Nevada,1970,1
+Rocky Mountains,New Mexico,1970,2
+Rocky Mountains,Utah,1970,2
+Rocky Mountains,Wyoming,1970,1
+Pacific Coast,All Pacific Coast,1970,57
+Pacific Coast,Alaska,1970,1
+Pacific Coast,California,1970,43
+Pacific Coast,Hawaii,1970,2
+Pacific Coast,Oregon,1970,4
+Pacific Coast,Washington,1970,7
+South,All South,1980,116
+South,Alabama,1980,7
+South,Arkansas,1980,4
+South,Florida,1980,19
+South,Georgia,1980,10
+South,Louisiana,1980,8
+South,Mississippi,1980,5
+South,North Carolina,1980,11
+South,South Carolina,1980,6
+South,Tennessee,1980,9
+South,Texas,1980,27
+South,Virginia,1980,10
+Border,All Border,1980,34
+Border,Kentucky,1980,7
+Border,Maryland,1980,8
+Border,Missouri,1980,9
+Border,Oklahoma,1980,6
+Border,West Virginia,1980,4
+New England,All New England,1980,24
+New England,Connecticut,1980,6
+New England,Maine,1980,2
+New England,Massachusetts,1980,11
+New England,New Hampshire,1980,2
+New England,Rhode Island,1980,2
+New England,Vermont,1980,1
+Mid-Atlantic,All Mid-Atlantic,1980,72
+Mid-Atlantic,Delaware,1980,1
+Mid-Atlantic,New Jersey,1980,14
+Mid-Atlantic,New York,1980,34
+Mid-Atlantic, Pennsylvania,1980,23
+Midwest,All Midwest,1980,80
+Midwest,Illinois,1980,22
+Midwest,Indiana,1980,10
+Midwest,Michigan,1980,18
+Midwest,Ohio,1980,21
+Midwest,Wisconsin,1980,9
+Plains,All Plains,1980,24
+Plains,Iowa,1980,6
+Plains,Kansas,1980,5
+Plains,Minnesota,1980,8
+Plains,Nebraska,1980,3
+Plains,North Dakota,1980,1
+Plains,South Dakota,1980,1
+Rocky Mountains,All Rocky Mountains,1980,24
+Rocky Mountains,Arizona,1980,5
+Rocky Mountains,Colorado,1980,6
+Rocky Mountains,Idaho,1980,2
+Rocky Mountains,Montana,1980,2
+Rocky Mountains,Nevada,1980,2
+Rocky Mountains,New Mexico,1980,3
+Rocky Mountains,Utah,1980,3
+Rocky Mountains,Wyoming,1980,1
+Pacific Coast,All Pacific Coast,1980,61
+Pacific Coast,Alaska,1980,1
+Pacific Coast,California,1980,45
+Pacific Coast,Hawaii,1980,2
+Pacific Coast,Oregon,1980,5
+Pacific Coast,Washington,1980,8
+South,All South,1990,125
+South,Alabama,1990,7
+South,Arkansas,1990,4
+South,Florida,1990,23
+South,Georgia,1990,11
+South,Louisiana,1990,7
+South,Mississippi,1990,5
+South,North Carolina,1990,12
+South,South Carolina,1990,6
+South,Tennessee,1990,9
+South,Texas,1990,30
+South,Virginia,1990,11
+Border,All Border,1990,32
+Border,Kentucky,1990,6
+Border,Maryland,1990,8
+Border,Missouri,1990,9
+Border,Oklahoma,1990,6
+Border,West Virginia,1990,3
+New England,All New England,1990,23
+New England,Connecticut,1990,6
+New England,Maine,1990,2
+New England,Massachusetts,1990,10
+New England,New Hampshire,1990,2
+New England,Rhode Island,1990,2
+New England,Vermont,1990,1
+Mid-Atlantic,All Mid-Atlantic,1990,66
+Mid-Atlantic,Delaware,1990,1
+Mid-Atlantic,New Jersey,1990,13
+Mid-Atlantic,New York,1990,31
+Mid-Atlantic, Pennsylvania,1990,21
+Midwest,All Midwest,1990,74
+Midwest,Illinois,1990,20
+Midwest,Indiana,1990,10
+Midwest,Michigan,1990,16
+Midwest,Ohio,1990,19
+Midwest,Wisconsin,1990,9
+Plains,All Plains,1990,22
+Plains,Iowa,1990,5
+Plains,Kansas,1990,4
+Plains,Minnesota,1990,8
+Plains,Nebraska,1990,3
+Plains,North Dakota,1990,1
+Plains,South Dakota,1990,1
+Rocky Mountains,All Rocky Mountains,1990,24
+Rocky Mountains,Arizona,1990,6
+Rocky Mountains,Colorado,1990,6
+Rocky Mountains,Idaho,1990,2
+Rocky Mountains,Montana,1990,1
+Rocky Mountains,Nevada,1990,2
+Rocky Mountains,New Mexico,1990,3
+Rocky Mountains,Utah,1990,3
+Rocky Mountains,Wyoming,1990,1
+Pacific Coast,All Pacific Coast,1990,69
+Pacific Coast,Alaska,1990,1
+Pacific Coast,California,1990,52
+Pacific Coast,Hawaii,1990,2
+Pacific Coast,Oregon,1990,5
+Pacific Coast,Washington,1990,9
+South,All South,2000,131
+South,Alabama,2000,7
+South,Arkansas,2000,4
+South,Florida,2000,25
+South,Georgia,2000,13
+South,Louisiana,2000,7
+South,Mississippi,2000,4
+South,North Carolina,2000,13
+South,South Carolina,2000,6
+South,Tennessee,2000,9
+South,Texas,2000,32
+South,Virginia,2000,11
+Border,All Border,2000,31
+Border,Kentucky,2000,6
+Border,Maryland,2000,8
+Border,Missouri,2000,9
+Border,Oklahoma,2000,5
+Border,West Virginia,2000,3
+New England,All New England,2000,22
+New England,Connecticut,2000,5
+New England,Maine,2000,2
+New England,Massachusetts,2000,10
+New England,New Hampshire,2000,2
+New England,Rhode Island,2000,2
+New England,Vermont,2000,1
+Mid-Atlantic,All Mid-Atlantic,2000,62
+Mid-Atlantic,Delaware,2000,1
+Mid-Atlantic,New Jersey,2000,13
+Mid-Atlantic,New York,2000,29
+Mid-Atlantic, Pennsylvania,2000,19
+Midwest,All Midwest,2000,69
+Midwest,Illinois,2000,19
+Midwest,Indiana,2000,9
+Midwest,Michigan,2000,15
+Midwest,Ohio,2000,18
+Midwest,Wisconsin,2000,8
+Plains,All Plains,2000,22
+Plains,Iowa,2000,5
+Plains,Kansas,2000,4
+Plains,Minnesota,2000,8
+Plains,Nebraska,2000,3
+Plains,North Dakota,2000,1
+Plains,South Dakota,2000,1
+Rocky Mountains,All Rocky Mountains,2000,28
+Rocky Mountains,Arizona,2000,8
+Rocky Mountains,Colorado,2000,7
+Rocky Mountains,Idaho,2000,2
+Rocky Mountains,Montana,2000,1
+Rocky Mountains,Nevada,2000,3
+Rocky Mountains,New Mexico,2000,3
+Rocky Mountains,Utah,2000,3
+Rocky Mountains,Wyoming,2000,1
+Pacific Coast,All Pacific Coast,2000,70
+Pacific Coast,Alaska,2000,1
+Pacific Coast,California,2000,53
+Pacific Coast,Hawaii,2000,2
+Pacific Coast,Oregon,2000,5
+Pacific Coast,Washington,2000,9
+South,All South,2010,138
+South,Alabama,2010,7
+South,Arkansas,2010,4
+South,Florida,2010,27
+South,Georgia,2010,14
+South,Louisiana,2010,6
+South,Mississippi,2010,4
+South,North Carolina,2010,13
+South,South Carolina,2010,7
+South,Tennessee,2010,9
+South,Texas,2010,36
+South,Virginia,2010,11
+Border,All Border,2010,30
+Border,Kentucky,2010,6
+Border,Maryland,2010,8
+Border,Missouri,2010,8
+Border,Oklahoma,2010,5
+Border,West Virginia,2010,3
+New England,All New England,2010,21
+New England,Connecticut,2010,5
+New England,Maine,2010,2
+New England,Massachusetts,2010,9
+New England,New Hampshire,2010,2
+New England,Rhode Island,2010,2
+New England,Vermont,2010,1
+Mid-Atlantic,All Mid-Atlantic,2010,58
+Mid-Atlantic,Delaware,2010,1
+Mid-Atlantic,New Jersey,2010,12
+Mid-Atlantic,New York,2010,27
+Mid-Atlantic, Pennsylvania,2010,18
+Midwest,All Midwest,2010,65
+Midwest,Illinois,2010,18
+Midwest,Indiana,2010,9
+Midwest,Michigan,2010,14
+Midwest,Ohio,2010,16
+Midwest,Wisconsin,2010,8
+Plains,All Plains,2010,21
+Plains,Iowa,2010,4
+Plains,Kansas,2010,4
+Plains,Minnesota,2010,8
+Plains,Nebraska,2010,3
+Plains,North Dakota,2010,1
+Plains,South Dakota,2010,1
+Rocky Mountains,All Rocky Mountains,2010,31
+Rocky Mountains,Arizona,2010,9
+Rocky Mountains,Colorado,2010,7
+Rocky Mountains,Idaho,2010,2
+Rocky Mountains,Montana,2010,1
+Rocky Mountains,Nevada,2010,4
+Rocky Mountains,New Mexico,2010,3
+Rocky Mountains,Utah,2010,4
+Rocky Mountains,Wyoming,2010,1
+Pacific Coast,All Pacific Coast,2010,71
+Pacific Coast,Alaska,2010,1
+Pacific Coast,California,2010,53
+Pacific Coast,Hawaii,2010,2
+Pacific Coast,Oregon,2010,5
+Pacific Coast,Washington,2010,10
