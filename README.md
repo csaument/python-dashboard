@@ -53,3 +53,7 @@ The overall purpose of this application is to learn how to code in Python and to
 * Dash 
 * Pandas
 * Requests
+* Plotly geo
+* Geopandas
+* Pypshp
+* Shapely
