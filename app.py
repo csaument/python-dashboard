@@ -1,79 +1,78 @@
-import requests
+import json
 import plotly.express as px
+import plotly.graph_objs as go
+import pandas as pd
 import dash
 from dash import dcc, html
-from config import PROPUBLICA_API_KEY
 
-def get_congress_data():
-    headers = {'X-API-Key': PROPUBLICA_API_KEY}
-    url = 'https://api.propublica.org/congress/v1/members/current.json'
-    response = requests.get(url, headers=headers)
-    data = response.json()['results'][0]['members']
-    return data
+house_file = "./Data/house_members.json"
+senate_file = "./Data/senate_members.json"
 
-congress_data = get_congress_data()
+with open(house_file, "r") as f:
+    house_members = json.load(f)
+
+with open(senate_file, "r") as f:
+    senate_members = json.load(f)
+
+congress_data = house_members + senate_members
 
 state_party_map = {}
 for member in congress_data:
     state = member['state']
     party = member['party']
     if state not in state_party_map:
-        state_party_map[state] = {}
-    if party not in state_party_map[state]:
-        state_party_map[state][party] = 0
+        state_party_map[state] = {'D': 0, 'R': 0, 'ID': 0, 'I': 0, 'L': 0}
     state_party_map[state][party] += 1
 
 state_party_df = []
 for state, parties in state_party_map.items():
     state_party_df.append({
         'state': state,
-        'democrats': parties.get('D', 0),
-        'republicans': parties.get('R', 0),
-        'other': parties.get('ID', 0) + parties.get('I', 0) + parties.get('L', 0)
+        'democrats': parties['D'],
+        'republicans': parties['R'],
+        'other': parties['ID'] + parties['I'] + parties['L']
     })
 state_party_df = pd.DataFrame(state_party_df)
 
+app = dash.Dash(__name__)
+
 fig = px.choropleth(
-    state_party_df, 
-    locationmode="USA-states",
-    locations="state",
-    scope="usa",
-    color_discrete_sequence=['green', 'blue', 'red'],
+    data_frame=state_party_df,
+    locationmode='USA-states',
+    locations='state',
+    scope='usa',
     color='democrats',
+    hover_name='state',
     hover_data={
-        'state': True,
-        'democrats': ':,d',
-        'republicans': ':,d',
-        'other': ':,d',
+        'democrats': ':.3f',
+        'republicans': ':.3f',
+        'other': ':.3f'
     },
+    color_continuous_scale=px.colors.sequential.RdBu,
     labels={
-        'democrats': 'Democrats',
-        'republicans': 'Republicans',
-        'other': 'Third Party',
-    },
-    title='US Congressional Action'
+        'color': 'Proportion of Democrats',
+        'democrats': 'Total Democrats',
+        'republicans': 'Total Republicans',
+        'other': 'Total Other'
+    }
 )
 
 fig.update_layout(
-    geo=dict(
-        scope='usa',
-        projection=go.layout.geo.Projection(type = 'albers usa'),
-        showlakes=True,
-        lakecolor='rgb(255, 255, 255)'),
-    coloraxis_colorbar=dict(
-        title="Representatives",
-        thicknessmode="pixels", thickness=15,
-        lenmode="pixels", len=300,
-        yanchor="middle", y=0.5,
-        ticks="inside", ticksuffix=" rep",
-        ),
+    title={
+        'text': 'Political Party by State',
+        'x': 0.5,
+        'xanchor': 'center',
+        'font': {
+            'size': 28
+        }
+    },
+    margin=dict(l=0, r=0, t=70, b=0),
+    geo=dict(bgcolor='rgba(0,0,0,0)', lakecolor='rgb(255, 255, 255)')
 )
 
-app = dash.Dash(__name__)
 app.layout = html.Div([
-    html.H1("US Congressional Action", style={'textAlign': 'center'}),
+    html.H1('US Congress: Political Party by State'),
     dcc.Graph(figure=fig),
-])
+], style={'textAlign': 'center'})
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+app.run_server(debug=True, use_reloader=False)
