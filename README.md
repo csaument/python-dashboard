@@ -29,9 +29,9 @@ The overall purpose of this application is to learn how to code in Python and to
     [x] Add config with private API key
     [x] Setup .gitignore to ignore config
     [x] Build initial Python file
-[] Organize initial dashboard
-    [] Header
-    [] US Map
+[x] Organize initial dashboard
+    [x] Header
+    [x] US Map
     * State boundaries
     [] Sliders for data
     * Session/year
@@ -41,8 +41,8 @@ The overall purpose of this application is to learn how to code in Python and to
     * Votes
     * Sponsor/cosponsor
     * House/senate
-    [] Hover
-    * Shows name of relevant members of district/
+    [x] Hover
+    * Shows count of representatives by party
 
 ## Resources
 * https://www.propublica.org/datastore/api/propublica-congress-api
