@@ -1,4 +1,5 @@
 import json
+import plotly.colors
 import plotly.express as px
 import plotly.graph_objs as go
 import pandas as pd
@@ -26,15 +27,23 @@ for member in congress_data:
 
 state_party_df = []
 for state, parties in state_party_map.items():
+    total = sum(parties.values())
+    proportion_d = parties['D'] / total
+    proportion_r = parties['R'] / total
+    proportion_o = (parties['ID'] + parties['I'] + parties['L']) / total
+    r, g, b = proportion_r * 255, proportion_o * 255, proportion_d * 255
     state_party_df.append({
         'state': state,
         'democrats': parties['D'],
         'republicans': parties['R'],
-        'other': parties['ID'] + parties['I'] + parties['L']
+        'other': parties['ID'] + parties['I'] + parties['L'],
+        'color': (int(r), int(g), int(b))
     })
 state_party_df = pd.DataFrame(state_party_df)
 
 app = dash.Dash(__name__)
+
+custom_scale = [    (0.0, 'rgb(255,0,0)'),    (0.5, 'rgb(128,0,128)'),    (1.0, 'rgb(0,0,255)')]
 
 fig = px.choropleth(
     data_frame=state_party_df,
@@ -44,13 +53,13 @@ fig = px.choropleth(
     color='democrats',
     hover_name='state',
     hover_data={
-        'democrats': ':.3f',
-        'republicans': ':.3f',
-        'other': ':.3f'
+        'democrats': ':,',
+        'republicans': ':,',
+        'other': ':,'
     },
-    color_continuous_scale=px.colors.sequential.RdBu,
+    color_continuous_scale='RdBu',
     labels={
-        'color': 'Proportion of Democrats',
+        'color': 'Party',
         'democrats': 'Total Democrats',
         'republicans': 'Total Republicans',
         'other': 'Total Other'
