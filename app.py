@@ -31,26 +31,24 @@ for state, parties in state_party_map.items():
     proportion_d = parties['D'] / total
     proportion_r = parties['R'] / total
     proportion_o = (parties['ID'] + parties['I'] + parties['L']) / total
-    r, g, b = proportion_r * 255, proportion_o * 255, proportion_d * 255
+    color = 2*(proportion_d-.5) if proportion_d > proportion_r else -2*(proportion_r-.5)
     state_party_df.append({
         'state': state,
         'democrats': parties['D'],
         'republicans': parties['R'],
         'other': parties['ID'] + parties['I'] + parties['L'],
-        'color': (int(r), int(g), int(b))
+        'color': color
     })
 state_party_df = pd.DataFrame(state_party_df)
 
 app = dash.Dash(__name__)
-
-custom_scale = [    (0.0, 'rgb(255,0,0)'),    (0.5, 'rgb(128,0,128)'),    (1.0, 'rgb(0,0,255)')]
 
 fig = px.choropleth(
     data_frame=state_party_df,
     locationmode='USA-states',
     locations='state',
     scope='usa',
-    color='democrats',
+    color='color',
     hover_name='state',
     hover_data={
         'democrats': ':,',
@@ -59,7 +57,6 @@ fig = px.choropleth(
     },
     color_continuous_scale='RdBu',
     labels={
-        'color': 'Party',
         'democrats': 'Total Democrats',
         'republicans': 'Total Republicans',
         'other': 'Total Other'
